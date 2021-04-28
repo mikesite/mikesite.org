@@ -1,0 +1,52 @@
+table.analysis {
+	margin: 0 auto 1em;
+	cursor: default;
+}
+table.analysis thead td {
+	font-weight: bold;
+	text-align: center !important;
+}
+table.analysis td + td {
+	font-family: monospace;
+}
+table.analysis td:first-child {
+	text-align: left;
+	width: 20ch;
+}
+table.analysis td:first-child + td {
+	text-align: right;
+	width: 6ch;
+}
+table.analysis td:first-child + td + td + td {
+	text-align: right;
+	width: 7ch;
+}
+table.analysis td:first-child + td + td + td + td {
+	text-align: left;
+	width: 8ch;
+}
+table.analysis td:first-child + td + td + td + td + td {
+	text-align: center;
+	width: 2ch;
+}
+table.analysis td:first-child + td + td + td + td + td + td {
+	text-align: center;
+	width: 2ch;
+}
+table.analysis tr:hover {
+	background-color: #eee;
+}
+table.analysis .bar {
+	display: inline-block;
+	width: 100px;
+	height: 10px;
+	background-color: #ccc;
+}
+table.analysis .bar > span {
+	display: block;
+	height: 100%;
+	background-color: #00f;
+}
+table.analysis .complete .bar > span {
+	background-color: #0f0;
+}

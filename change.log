@@ -1,0 +1,119 @@
+Version 2021-04-17
+- FIX: collection badge: treat promo items as strictly noloot even if the events are active to keep badge markers unambiguous
+- FIX: quick draw card pool: slight recoloring of attack cards
+- FIX: figure color schemes and custom filter: defined background color
+- REWORK: all tools: general housekeeping for php and ts sources
+- FEATURE: all tools: resource files are dynamically loaded either from cache or from game server
+- FEATURE: resources: update script to keep the cached resource files up-to-date
+- NEW: README file: added general explanation to the utils and the different versions
+- NEW: build script: script for automated artifact generation
+
+Version 2019-05-25
+- FEATURE: campaign badge: replaced co-op details with adventure details that list all incomplete adventures in all modes
+- FEATURE: custom filter: operator to compare one object with the whole pool (both for cards and items)
+
+Version 2019-03-20
+- FEATURE: collection analysis: select 'all items' for the hover box to see a result independent of your log
+
+Version 2019-03-02
+- FIX: collection analysis: Fixed a bug that caused the hover box to not disappear when displayed while new analysis is run that doesn't list items at all
+
+Version 2019-02-27
+- FIX: mining log: replaced null-information by other field
+- REWORK: all tools: migrated all scripts to TypeScript using RequireJS and helper fully documented
+- REWORK: all tools: new HTML-header and signature layout
+- REWORK: badge tools: included external scripts to not suffer from changes
+- REWORK: index: new layout
+- REWORK: figure color schemes (former figures spread): merged both tools into one
+- REWORK: card generator: new image creation
+- FEATURE: all tools: Favicon
+- FEATURE: custom filter: executable filter examples
+- FEATURE: custom filter: parser for cards, bindings, xor-composition
+- NEW: card and item query: tool to list items or cards matching a custom filter
+
+Version 2018-12-01
+- FIX: both badges tools: adapted script reference to new publishing location of canvg
+
+Version 2018-04-30
+- FEATURE: collection analysis: Perma-Links for the filter
+- FEATURE: quick draw card pool: Cards are colored according to their types
+
+Version 2018-03-18
+- NEW: quick draw card pool: List all cards that a quick draw character could choose
+
+Version 2018-01-16
+- FIX: collection analysis: changed the way the info page gets opened to prevent browser interference
+- FIX: collection analysis: filters like "[]!~ ..." are now working with meaning "items/cards with no column similar to ..."
+- FIX: collection analysis: result header now have full background again
+- FEATURE: collection analysis (info page): wiki links open in new tab
+- FEATURE: collection analysis: added the two remaining sorting policies
+- FEATURE: campaign badge: sorting the listed (non-)co-oped adventures
+
+Version 2017-12-23
+- FIX: collection analysis: changed code to iterate over elements in order to not cause errors with old browsers
+- FIX: collection analysis: fixed item export that was broken due to the "exclude items" feature
+- FIX: collection analysis: removed unprintable characters from cards.csv
+- FIX: figures spread all: fixed "no-break" style
+- REWORK: all tools: reduced margin in signature to better fit smaller screen sizes and added bottom page margin to have a visible end of page
+- REWORK: all tools: introduced new table format for options
+- REWORK: collection analysis and collection badge: excluded unobtainable items
+- REWORK: collection analysis: changed layout of exclude buttons
+- FEATURE: collection analysis: details buttons
+- FEATURE: collection analysis: fine grained noloot, treasure and promo selection
+- FEATURE: collection analysis: cheat sheet opens in new tab
+
+Version 2017-11-25
+- FEATURE: collection badge: max usable
+- FEATURE: collection analysis: "exclude items" button
+
+Version 2017-11-13
+- FIX: campaign badge: re-enabled reachability check with base set disabled to exclude placeholder data
+- REWORK: all tools: new signature badge
+- REWORK: all tools: styling sheets centralized
+
+Version 2017-11-10
+- FIX: collection analysis: added custom item filter and parser script files (got lost because of the re-enabled auto-update)
+- FEATURE: collection analysis: additional sorting policies for the info box
+
+Version 2017-11-09
+- REWORK: all tools: re-enabled auto-update
+- REWORK: collection analysis: layout info box options as table
+- FEATURE: collection analysis: sorting policies for the info box
+
+Version 2017-10-29
+- FIX: collection analysis: not two missing item counts if nextPct == 100%
+- FIX: campaign badge: disabled reachability check if base set is disabled
+- REWORK: collection analysis: split csv export into two files
+- FEATURE: campaign badge: added list of (not) co-oped adventures
+- FEATURE: campaign badge: separated CoC from base set (now tagged as Set 3)
+
+Version 2017-10-20
+- FEATURE: collection analysis: added csv export with cost/value
+- FEATURE: collection analysis: added total missing items to info box
+
+Version 2017-10-17
+- FEATURE: campaign badge: added co-op bar
+- DRAFT: collection analysis: added csv export
+
+Version 2017-10-05
+- FIX: custom item filter: minor formatting
+- FEATURE: custom item filter: added guidelines for contributors
+
+Version 2017-10-01
+- REWORK: campaign badge: finished rework
+
+Version 2017-09-30
+- REWORK: campaign badge: added new options
+- FEATURE: collection analysis: made the info-box content selectable (missing/collected/excess)
+- FEATURE: collection analysis: new variants for max usable
+- FEATURE: collection analysis: added custom item filter
+- NEW: custom item filter: cheat sheet for the analysis' custom item filter
+
+Version 2017-09-26
+- REWORK: collection badge: finished rework
+
+Version 2017-08-23
+- REWORK: all tools except badges: total rework
+- NEW: shop excess: see which items you should buy from shop for max usable
+
+FIX - REWORK - FEATURE - DRAFT - NEW

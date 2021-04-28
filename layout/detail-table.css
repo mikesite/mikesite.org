@@ -1,0 +1,9 @@
+table.detail {
+	cursor: default;
+}
+table.detail td {
+	text-align: left;
+}
+table.detail tr:hover {
+	background-color: #eee;
+}

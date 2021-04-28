@@ -1,0 +1,106 @@
+table.cards {
+	margin: 0 auto;
+}
+table.cards td {
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.types {
+	--armor: #aaaaaa;
+	--assist: #ffffff;
+	--attack: #ff5555;
+	--block: #aaffaa;
+	--boost: #ffaa55;
+	--handicap: #555555;
+	--move: #aaaaff;
+	--utility: #aa55ff;
+	--shadow: 0 0 0 white, 0 0 1px white, 0 0 2px white, 0 0 3px white, 0 0 4px white, 0 0 5px white;
+	color: var(--f, inherit);
+	text-shadow: var(--s, inherit);
+	background: var(--t, linear-gradient(to right, var(--hl, white) 50%, var(--hr, white) 51%));
+}
+/* non-hybrid types */
+.armor {
+	--t: var(--armor);
+}
+.assist {
+	border: solid #aaaaaa 1px;
+	--t: var(--assist);
+}
+.attack {
+	--t: var(--attack);
+}
+.block {
+	--t: var(--block);
+}
+.boost {
+	--t: var(--boost);
+}
+.handicap {
+	--f: white;
+	--t: var(--handicap);
+}
+.move {
+	--t: var(--move);
+}
+.utility {
+	--f: white;
+	--t: var(--utility);
+}
+/* left hybrid types */
+.l_armor {
+	--hl: var(--armor);
+}
+.l_assist {
+	border: solid #aaaaaa 1px;
+	--hl: var(--assist);
+}
+.l_attack {
+	--hl: var(--attack);
+}
+.l_block {
+	--hl: var(--block);
+}
+.l_boost {
+	--hl: var(--boost);
+}
+.l_handicap {
+	--s: var(--shadow);
+	--hl: var(--handicap);
+}
+.l_move {
+	--hl: var(--move);
+}
+.l_utility {
+	--s: var(--shadow);
+	--hl: var(--utility);
+}
+/* right hybrid types */
+.r_armor {
+	--hr: var(--armor);
+}
+.r_assist {
+	border: solid #aaaaaa 1px;
+	--hr: var(--assist);
+}
+.r_attack {
+	--hr: var(--attack);
+}
+.r_block {
+	--hr: var(--block);
+}
+.r_boost {
+	--hr: var(--boost);
+}
+.r_handicap {
+	--s: var(--shadow);
+	--hr: var(--handicap);
+}
+.r_move {
+	--hr: var(--move);
+}
+.r_utility {
+	--s: var(--shadow);
+	--hr: var(--utility);
+}

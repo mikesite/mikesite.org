@@ -1,0 +1,16 @@
+table.selection {
+	margin: 0 auto;
+	cursor: default;
+	table-layout: fixed;
+	width: 100%;
+}
+table.selection td {
+	text-align: left;
+}
+table.selection td:hover {
+	background-color: #eee;
+}
+table.selection label {
+	display: block;
+	padding: 2px;
+}

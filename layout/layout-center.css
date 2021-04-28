@@ -1,0 +1,11 @@
+html {
+	margin: 0;
+	padding: 0;
+	background-color: #ccc;
+}
+body {
+	width: 550px;
+	margin: 60px auto 20px;
+	padding: 20px;
+	background-color: #fff;
+}

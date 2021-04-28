@@ -1,0 +1,32 @@
+table.excess {
+	margin: 0 auto;
+	cursor: default;
+}
+table.excess thead tr {
+	font-weight: bold;
+	text-decoration: underline;
+}
+table.excess tr.slot td {
+	font-weight: bold;
+	padding-top: 20px;
+}
+table.excess tr.rarity td {
+	font-style: italic;
+	padding-top: 10px;
+}
+table.excess tr.item td:first-child + td {
+	font-family: monospace;
+}
+table.excess td:first-child {
+	padding-left: 4px;
+	padding-right: 16px;
+	text-align: left;
+}
+table.excess td:first-child + td {
+	padding-right: 4px;
+	padding-left: 16px;
+	text-align: right;
+}
+table.excess tr:hover {
+	background-color: #eee;
+}
