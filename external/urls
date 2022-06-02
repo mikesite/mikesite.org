@@ -1,8 +1,0 @@
-require.js:
-https://requirejs.org/docs/release/2.3.6/minified/require.js
-canvg-min.js:
-https://cdn.jsdelivr.net/npm/canvg/dist/browser/canvg-min.js
-rgbcolor.min.js:
-https://cdnjs.cloudflare.com/ajax/libs/canvg/1.4/rgbcolor.min.js
-stackblur.min.js:
-https://cdnjs.cloudflare.com/ajax/libs/stackblur-canvas/1.4.1/stackblur.min.js
